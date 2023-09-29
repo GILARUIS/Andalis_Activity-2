@@ -5,11 +5,10 @@
 2. IF you are using XAMPP as default localhost server just create a database with your desired name
 3. create database table named 'users' or...
 4. run this SQL command in mysql
+   
    CREATE DATABASE IF NOT EXISTS users;
-
   -- Use the 'users' database
   USE users;
-  
   -- Create a 'users' table with the specified columns
   CREATE TABLE IF NOT EXISTS users (
       id INT AUTO_INCREMENT PRIMARY KEY,
